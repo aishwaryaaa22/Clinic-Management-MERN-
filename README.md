@@ -1,6 +1,6 @@
 Clinic Management System (MERN)
 
-A modern, full-stack Clinic Management portal
+A modern full-stack Clinic Management portal
 
 Tech Stack
 - Frontend: React.js, Tailwind CSS, Axios, React Router
