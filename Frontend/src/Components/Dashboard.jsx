@@ -70,11 +70,11 @@ const Dashboard = () => {
                     <form onSubmit={handleAdd} className="space-y-5">
                         <div className="space-y-1">
                             <label className="text-[10px] font-bold text-indigo-400 uppercase ml-1 tracking-tighter">Full Name</label>
-                            <input className="w-full bg-slate-800/50 border border-white/5 rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-indigo-500 outline-none transition-all" placeholder="e.g. Rahul Kumar" onChange={e => setForm({...form, name: e.target.value})} />
+                            <input className="w-full bg-slate-800/50 border border-white/5 rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-indigo-500 outline-none transition-all" placeholder="e.g. Aishwarya sharma" onChange={e => setForm({...form, name: e.target.value})} />
                         </div>
                         <div className="space-y-1">
                             <label className="text-[10px] font-bold text-indigo-400 uppercase ml-1 tracking-tighter">Age</label>
-                            <input className="w-full bg-slate-800/50 border border-white/5 rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-indigo-500 outline-none transition-all" placeholder="e.g. 25" type="number" onChange={e => setForm({...form, age: e.target.value})} />
+                            <input className="w-full bg-slate-800/50 border border-white/5 rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-indigo-500 outline-none transition-all" placeholder="e.g. 21" type="number" onChange={e => setForm({...form, age: e.target.value})} />
                         </div>
                         <div className="space-y-1">
                             <label className="text-[10px] font-bold text-indigo-400 uppercase ml-1 tracking-tighter">Appointment Date</label>
